@@ -1,7 +1,8 @@
 import { Suspense } from "react";
 import { Container, Header, LinkList, StyledLink } from "./Layout.styled";
+import { Outlet } from "react-router-dom";
 
-const { NavLink, Outlet, Link } = require("react-router-dom")
+
 
 const Layout = () => {
 
