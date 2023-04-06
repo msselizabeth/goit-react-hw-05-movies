@@ -1,11 +1,5 @@
-// import  Home  from "pages/Home";
-// import MovieDetails from "pages/MovieDetails";
-// import Movies from "pages/Movies";
-import { Route, Routes } from "react-router-dom";
-// // import Layout from "./Layout/Layout";
-// import Cast from "pages/Cast";
-// import Review from "pages/Review";
 
+import { Route, Routes } from "react-router-dom";
 import { lazy } from "react";
 
 const Layout = lazy(() => import("./Layout/Layout"));
