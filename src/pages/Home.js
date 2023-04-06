@@ -10,7 +10,7 @@ const Home = () => {
         getTrendingMovies(movies)
             .then(movies => setMovies(movies.results))
             .catch(error => console.error(error.status_message))
-    }, [])
+    }, [movies])
 
      const location = useLocation();
 
