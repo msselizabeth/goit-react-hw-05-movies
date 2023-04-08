@@ -1,9 +1,9 @@
 import { PropTypes } from 'prop-types';
 
-const SearchForm = () => {
+const SearchForm = ({handleMovieSubmit}) => {
 
     return (
-        <form>
+        <form onSubmit={handleMovieSubmit}>
             <input type="text" name="query"/>
             <button type="submit">Search</button>
         </form>
